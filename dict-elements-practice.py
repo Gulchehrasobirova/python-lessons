@@ -24,7 +24,11 @@ print("Dunyo davlatlari: ")
 for poytaxt in sorted(davlatlar_poytaxtlar.values()):
     print(poytaxt)
 davlat = input("Davlat nomini kiriting: ").lower()
+if davlatlar_poytaxtlar.git(davlat) == None:
+    print("kechirasiz bizda bu haqida malumot yoq")
+else:
 
+print(f"{davlat.title()}ning poytaxti {davlatlar_poytaxtlar{davlat}.title()} shahri")
 
 
 
