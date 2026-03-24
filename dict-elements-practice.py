@@ -28,7 +28,7 @@ if davlatlar_poytaxtlar.git(davlat) == None:
     print("kechirasiz bizda bu haqida malumot yoq")
 else:
 
-print(f"{davlat.title()}ning poytaxti {davlatlar_poytaxtlar{davlat}.title()} shahri")
+print(f"{davlat.title()} ning poytaxti {davlatlar_poytaxtlar{davlat}.title()} shahri")
 
 
 
