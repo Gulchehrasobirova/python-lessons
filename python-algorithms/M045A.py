@@ -1,5 +1,5 @@
 N = input()
 if "13" in N:
-    print("omadsiz")
+    print("omadsiz chipta")
 else:
-    print("omadli")
+    print("omadli chipta")
